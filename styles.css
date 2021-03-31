@@ -1,0 +1,104 @@
+@font-face {
+    font-family:"Timeburner";
+    src: url("fonts/TimeburnerBold-peGR.ttf");
+}
+@font-face {
+    font-family:"Odin Rounded";
+    src: url("fonts/Odin\ Rounded\ -\ Bold.otf");
+}
+
+* {
+    font-family: "Odin Rounded";
+}
+
+* a {
+    text-decoration:none;
+}
+
+body, head {
+    background-color: rgba(133,122,200);
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: white;
+    padding: 40px 0 48px 0;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+
+.goTo a {
+    color: black;
+}
+
+.goTo a:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#project-name {
+    position: absolute;
+    left: 30%;
+    margin: auto;
+}
+
+.goTo {
+    position: absolute;
+    right: 30%
+}
+
+.im-here {
+    color: rgba(133,122,200)
+}
+
+.content {
+    margin: 18% auto;
+    border-radius: 100px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.what-color {
+    display: table;
+    margin: auto;
+    padding: 30px 40px 43px 40px;
+    font-size: 50px;
+    border-radius: 100px;
+    color: white;
+    transition: background-color 5s ease-in;
+    background-color: #191919;
+}
+
+.what-color:hover {
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 5s ease-in;
+}
+
+.color-name {
+    color: rgba(133,122,200);
+}
+
+.color-name2 {
+    color: rgba(133,122,200);
+}
+
+#change-color-btn {
+    margin-top: 20px;
+    padding: 10px 40px 20px 40px;
+    font-size: 40px;
+    border-radius: 100px;
+    border: 3px solid #191919;
+    background-color: rgba(255, 255, 255, 0);
+    color: #191919;
+}
+
+#change-color-btn:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2)
+}
